@@ -143,10 +143,8 @@ nav {
 }
 .ul li a:hover {
     background: #fff;
-}
+        color: #101010;
 
-.ul li a:hover {
-    color: #101010;
 }
 
 
