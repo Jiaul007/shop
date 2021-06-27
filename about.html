@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Jiaul Haque">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------meta tag end here----------->
+
+
+    <title>First Web</title>
+
+
+    <!----------------title logo-------------->
+    <link rel="sortcut icon" href="images/favicon.png">
+
+
+    <!---------------Fontsawosome------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+
+
+    <!-----------------style.css-------------->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--.main-container is start here-->
+    <div class="container">
+        <header>
+            <div class="toptitel">
+                <h1>Anam Fashion
+                </h1>
+            </div>
+            <span onclick="openmenu()" class="menu">
+                <h2>&#9776</h2>
+            </span>
+            <div class="main-navbar-section">
+                <nav>
+                    <ul id="ul" class="ul">
+                        <li><a href="index.html" class="active">home</a></li>
+                        <li><a href="shop.html">shop</a></li>
+                        <li><a href="whyus.html">why us</a></li>
+                        <li><a href="about.html">about us</a></li>
+                        <li><a href="contact.html">contact us</a></li>
+                    </ul>
+
+
+                    <div id="link" class="link-icon">
+                        <a href="#login"><i class="fas fa-user"></i>
+                            login
+                        </a>
+                        <a href="#shop"><i class="fas fa-shopping-bag"></i>
+                        </a>
+                        <a href="#search"><i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+
+
+
+
+
+
+
+            <!--main header section is start here-->
+            <div id="home" class="main-header-thumb">
+                <h1>we are best of luck for you</h1>
+            </div>
+        </header>
+
+
+        <!--        gift section is start here-->
+        <div class="gift" id="aboutus">
+            <div class="row">
+                <div class="right-gift-Sec">
+                    <img src="images/gifts.png" alt="girlpic">
+                </div>
+
+                <div class="left-gift-Sec">
+                    <h1>GIFTS FOR YOUR <br>
+                        LOVED ONES
+
+
+                    </h1>
+                    <p>
+                        Hates him for the praise with canticles, Whosoever he be of this age, and omnis are accusing at the corrupted, from which he wishes to encounter the flattery of her, and of life are less a cause? But this man's dishonor, in the explication thereof, or are consequent to the Blessed and prosecutors, and obtain some?
+
+                    </p>
+                    <button class="btn3">buy now</button>
+                    <button class="btn4">see more</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- footer section is start-->
+
+        <footer>
+            <div class="footercontainer">
+                <div class="flex">
+                    <div class="footer-colum">
+                        <h2> Company</h2>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our searvice</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">affilieat program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-colum">
+                        <h2>get help</h2>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">poyment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-colum">
+                        <h2>Online shop</h2>
+                        <ul>
+                            <li><a href="#">watch</a></li>
+                            <li><a href="#">bag</a></li>
+                            <li><a href="#">shoes </a></li>
+                            <li><a href="#">dress </a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-colum">
+                        <h2>follow us</h2>
+                        <div class="socialicon">
+
+
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="lastfooter">
+                <p> all copy right &copy; 2021 |
+                </p>
+                <p> Design By </p>
+                <a href="#"> JK INDRUSTY</a>
+            </div>
+        </footer>
+        <!-- footer section is end here-->
+    </div>
+
+
+
+
+
+    <!--    js setion-->
+    <script>
+        let x = document.getElementById('ul');
+        let y = document.getElementById('link');
+        const openmenu = () => {
+            if (x.style.display == 'block') {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+
+
+            if (y.style.display == 'block') {
+                y.style.display = "none";
+            } else {
+                y.style.display = "block";
+            }
+
+        }
+    </script>
+</body></html>
