@@ -138,13 +138,14 @@ nav {
     margin: 5px;
 }
 
-.ul li a.active {
+.ul li.active a {
     background: #fff;
-}
-.ul li a:hover {
-    background: #fff;
-        color: #101010;
 
+}
+
+.ul li a:hover {
+    background: #ffffff;
+    color: #101010;
 }
 
 
@@ -226,7 +227,8 @@ button {
     border-radius: 6px;
     text-transform: capitalize;
     transition: all 0.5s linear;
-
+    cursor: pointer;
+    color: aliceblue;
 }
 
 button:hover {
@@ -827,10 +829,6 @@ footer {
         display: block;
         transition: all 0.2s linear;
 
-    }
-
-    .ul li a.active {
-        background: var(--headerbg) !important;
     }
 
     .ul li:last-child a {
