@@ -40,11 +40,11 @@
             <div class="main-navbar-section">
                 <nav>
                     <ul id="ul" class="ul">
-                        <li><a href="index.html" class="active">home</a></li>
-                        <li><a href="shop.html">shop</a></li>
-                        <li><a href="whyus.html">why us</a></li>
-                        <li><a href="about.html">about us</a></li>
-                        <li><a href="contact.html">contact us</a></li>
+                        <li class="item"><a href="index.html" class="active">home</a></li>
+                        <li class='active item'><a href="shop.html">shop</a></li>
+                        <li class='item'><a href="whyus.html">why us</a></li>
+                        <li class='item'><a href="about.html">about us</a></li>
+                        <li class='item'><a href="contact.html">contact us</a></li>
                     </ul>
                     <div id="link" class="link-icon">
                         <a href="#login"><i class="fas fa-user"></i>
@@ -57,11 +57,6 @@
                     </div>
                 </nav>
             </div>
-
-
-
-
-
 
 
             <!--main header section is start here-->
@@ -218,12 +213,11 @@
 
 
 
-
-
     <!--    js setion-->
     <script>
         let x = document.getElementById('ul');
         let y = document.getElementById('link');
+
         const openmenu = () => {
             if (x.style.display == 'block') {
                 x.style.display = "none";
@@ -237,7 +231,6 @@
             } else {
                 y.style.display = "block";
             }
-
         }
     </script>
 </body></html>
